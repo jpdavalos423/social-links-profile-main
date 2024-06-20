@@ -21,7 +21,6 @@ h2 {
   color: hsl(75, 94%, 57%);
   font-weight: 600;
   font-size: 14px;
-  /* margin: 0; */
 }
 
 .container {
@@ -70,6 +69,12 @@ section {
 .link-item {
   width: 100%;
   margin: 10px 0;
+}
+
+.link-item a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+  cursor: black;
 }
 
 @media (max-width: 345px) {
